@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 6</title>
+  </head>
+  <body>
+      <img src="images/image1.jpg" id="image1" onmouseover="change (img[0],img_1[0],img_2[0])"
+      onmouseout="retour(img[0],img_1[0])"/>
+      <img src="images/image2.jpg" id="image2" onmouseover="change (img[1],img_1[1],img_2[1])"
+      onmouseout="retour(img[1],img_1[1])"/>
+      <img src="images/image3.jpg" id="image3" onmouseover="change (img[2],img_1[2],img_2[2])"
+      onmouseout="retour(img[2],img_1[2])"/>/>
+      <img src="images/image4.jpg" id="image4" onmouseover="change (img[3],img_1[3],img_2[3])"
+      onmouseout="retour(img[3],img_1[3])"/>/>
+      <img src="images/image5.jpg" id="image5" onmouseover="change (img[4],img_1[4],img_2[4])"
+      onmouseout="retour(img[4],img_1[4])"/>/>
+  </body>
+  <script type="text/javascript">
+  var img_1=['images/image1.jpg','images/image2.jpg','images/image3.jpg',
+      'images/image4.jpg','images/image5.jpg'];
+  var img_2=['images/image1_2.jpg','images/image2_2.jpg',
+  'images/image3_2.jpg','images/image4_2.jpg','images/image5_2.jpg'];
+  var  img=['image1','image2','image3','image4','image5'];
+
+  function change(a,b,c){
+      var img2=document.getElementById(a);
+      img2.setAttribute('src',c);
+    };
+  function retour(a,b){
+      var img2=document.getElementById(a);
+      img2.setAttribute('src',b);
+  };
+
+
+  </script>
+</html>

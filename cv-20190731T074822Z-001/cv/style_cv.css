@@ -1,0 +1,51 @@
+@font-face{
+    font-family:'acme';
+    src: url('police/Acme-Regular-webfont.woff');
+}
+nav a {
+    border:5px lightblue groove;
+    border-radius: 5px;
+    background-color: black;
+    font-size:1em;
+    
+}
+body{
+    font-family:'acme' ;
+    background-image: url( image/processeur.jpg);
+    color:ghostwhite;
+    text-shadow: 3px 3px 5px darkblue;
+    box-shadow: 3px 3px 5px darkblue;
+    
+}
+h1{    
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 5px 5px 10px darkblue;
+    border: 5px lightblue groove;
+}
+
+
+h2{
+    font-size:2em;
+    text-shadow: 3px 3px 5px darkblue;
+   
+}
+
+
+h3{
+    font-size: 2em;
+    text-align:center;
+    text-shadow: 3px 3px 5px darkblue;
+    border: 5px lightblue groove;
+    background-color: darkcyan;
+   
+}
+ul{
+    font-size:1.5em;
+    text-align: left;
+    
+}
+footer {
+    text-align: center;
+    font-size:1.5em;
+}

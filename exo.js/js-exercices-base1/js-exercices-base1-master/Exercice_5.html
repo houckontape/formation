@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <label for="premier_nombre">Premier nombre : </label>
+            <input type="text" id="premier_nombre" name="premier_nombre" value=""/>
+            <label for="deuxieme_nombre">Deuxième nombre : </label>
+            <input type="text" id="deuxieme_nombre" name="deuxieme_nombre" value=""/>
+            <button onclick="toto()" id="valider" name ="valider">Valider</button>
+            <script type="text/javascript">
+            function toto(){
+            var name = document.getElementById('premier_nombre').value;
+            var nb2 = document.getElementById('deuxieme_nombre').value;
+            var total = (Math.trunc(name)) * nb2;
+            alert(total);
+
+            }
+            </script>
+        </form>
+    </body>
+</html>

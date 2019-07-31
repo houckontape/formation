@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Location voiture</title>
+    <link rel="stylesheet" href="style_index2.css">
+</head>
+<body>
+
+    <!--construction de l'entete titre centrée-->
+    <!--phrase d'accroche sous le titre-->
+    <!--image de fond fixe meme en responsive-->
+    <!--barre de recherche centre bas supperposé aux header-->
+    <div class="wrapper">
+        <header class="min_wrapper">
+            <h1>Bienvennue à bord</h1>
+            <p>Location de voiture 24h/24 7j/7</p>
+            <div class="menu"> </div>
+            <div class="recherche">
+            <form>
+                <select class="adresse" name="adresse">
+                    <option value="">adresse de départ</option>
+                    <option value="">adresse deux</option>
+                </select>
+                <input type="date" class="date1" value="départ">
+                <input type="date" class="date2" value="arrivé">
+                <button type="button" name="button">Valider</button>
+            </form>
+            </div>
+        </header>
+
+    <!--ligne avec résultat à droite et boutton de trie à gauche-->
+        <div class="resultat">
+            <p><strong>7 résultats</strong></p>
+            <form class="prix" action="" method="post">
+            <select class="" name="prix">
+                <option value="">Prix décroissant</option>
+                <option value="">prix2</option>
+            </select>
+
+            </form>
+        </div>
+    <!--defilement des produits  un vignette vehicles avec titre et description-->
+        <div class="vehicules">
+            <article class="vehicule1">
+            <img src="img/vehicule1.png" alt="image voiture">
+            <div> <h3>Peugeot 208</h3> <br>
+            <p>Diesel 5 portes,GPS, Autoradio, Cadavre dans le coffre(deja brulé) <br>
+            999 euros , agence de Paris</p>
+            <button type="button" name="button">Reservez et Payer</button></div>
+            </article>
+            <article class="vehicule2">
+            <img src="img/vehicule2.png" alt="image voiture">
+            <div> <h3>Ford Focus</h3> <br>
+            <p>Diesel 5 portes,GPS, Autoradio, Cadavre dans le coffre(deja brulé) <br>
+            999 euros , agence de Paris</p>
+            <button type="button" name="button">Reservez et Payer</button></div>
+            </article>
+            <article class="vehicule3">
+            <img src="img/vehicule3.png" alt="image voiture">
+            <div> <h3>Audi A1</h3> <br>
+            <p>Diesel 5 portes,GPS, Autoradio, Cadavre dans le coffre(deja brulé) <br>
+            999 euros , agence de Paris</p>
+            <button type="button" name="button">Reservez et Payer</button></div>
+            </article>
+            <article class="vehicule4">
+            <img src="img/vehicule4.png" alt="image voiture">
+            <div> <h3>Opel Mokka</h3> <br>
+            <p>Diesel 5 portes,GPS, Autoradio, Cadavre dans le coffre(deja brulé) <br>
+            999 euros , agence de Paris</p>
+            <button type="button" name="button">Reservez et Payer</button></div>
+            </article>
+        </div>
+    <!--boutton de reservation sous la description-->
+    <!-- footer avec image de la boutique et description meme taille pour les 2-->
+        <footer>
+            <img src="img/agence.jpg" alt="image agence">
+            <div class="">
+
+
+            <h>Agence de Paris</h>
+            <p>300 boulevard de Vaugirard <br>
+            ouvert 7j/7 de 09h à 13h et de 14h à 20h<br>
+            01 02 03 04  <br>
+            contact@vtc.com</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Exercices base 3</title>
+      <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body id="deux">
+    <script type="text/javascript">
+    var books = [
+    {
+      title: 'CSS: The Definitive Guide',
+      author: 'Eric Meyer',
+      image: 'https://covers.oreillystatic.com/images/0636920012726/lrg.jpg',
+      type: 'css'
+    },
+    {
+      title: 'CSS Development with CSS3',
+      author: 'Zachary Kingston',
+      image: 'https://covers.oreillystatic.com/images/0636920057970/lrg.jpg',
+      type: 'css'
+    },
+    {
+      title: 'You Don\'t Know JS: Up & Going',
+      author: 'Kyle Simpson',
+      image: 'https://covers.oreillystatic.com/images/0636920039303/lrg.jpg',
+      type: 'js'
+    },
+    {
+      title: 'Programming JavaScript Applications',
+      author: 'Eric Elliott',
+      image: 'https://covers.oreillystatic.com/images/0636920033141/lrg.jpg',
+      type: 'js'
+    },
+    {
+      title: 'Modern JavaScript Develop and Design',
+      author: 'Ullman Larry',
+      image: 'https://www.booktopia.com.au/http_coversbooktopiacomau/big/9780321812520/modern-javascript.jpg',
+      type: 'js'
+    }
+    ] ;
+
+
+
+        books.forEach(function(livre){
+        var biblio=document.createElement("li");
+        biblio.textContent= livre.title;
+        document.getElementById('deux').appendChild(biblio);
+        var biblio=document.createElement("li");
+        biblio.textContent= livre.author;
+        document.getElementById('deux').appendChild(biblio);
+        var biblio=document.createElement("img");
+        biblio.setAttribute ('src',livre.image);
+        document.getElementById('deux').appendChild(biblio);
+        var biblio=document.createElement("li");
+        biblio.textContent= livre.type;
+        document.getElementById('deux').appendChild(biblio);
+        });
+
+
+
+
+    </script>
+
+    </body>
+</html>

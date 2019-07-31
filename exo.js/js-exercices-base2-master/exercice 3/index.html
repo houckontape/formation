@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 3</title>
+</head>
+<body onkeydown="touche(event)">
+  <form>
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" id="nom" />
+
+  </form>
+
+  <script type="text/javascript">
+  function touche(e){
+    var touche = e.keyCode;
+    var nom = String.fromCharCode(touche);
+    alert('Vous avez appuyé sur'+nom);
+
+}
+  </script>
+</body>
+</html>

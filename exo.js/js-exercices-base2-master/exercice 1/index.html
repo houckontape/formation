@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 1</title>
+
+  </head>
+  <body>
+      <img src="images/image1.jpg" id="image1" onmouseover="change();"/>
+      <script type="text/javascript">
+          function change(){
+              var img2=document.getElementById('image1');
+            if (img2.getAttribute('src')== "images/image1.jpg"){
+              img2.setAttribute('src',"images/image1_2.jpg");
+          }else{
+              img2.setAttribute('src',"images/image1.jpg");
+          };
+              }
+
+
+      </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 4</title>
+</head>
+<body>
+  <form>
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="Doe" id="nom" />
+    <label for="prenom">Votre prenom  : </label><input type="text" name="prenom" value="John" id="prenom" />
+    <label for="ville">Votre ville  : </label><input type="text" name="ville" value="New York" id="ville" />
+    <button type="button" name="button" onclick="clean();">RAZ</button>
+  </form>
+  <script type="text/javascript">
+    function clean(){
+        var inElt=document.querySelectorAll('input');
+        inElt.forEach(function(item){
+            item.setAttribute('value'," ");
+        })
+    };
+
+  </script>
+</body>
+</html>

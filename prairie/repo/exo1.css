@@ -1,0 +1,21 @@
+/*boite de navigation en haut de pages*/
+/*todo: rajouter les icone de navigation */
+.navigation {
+  width: auto;
+  height: 80px;
+  background-color: orange;
+}
+/*boite de presentation du produits phare*/
+/*---- */
+.prophare{
+  width: auto;
+  height: 200px;
+  border: solid 1px black;
+  background:url("/IMG/voyage_tunisie.png");
+}
+
+
+div
+{
+  border:2px solid black;
+}

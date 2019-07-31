@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercice_3</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form>
+    <label for="nom">Nom : </label>
+    <input type="text" name="nom" id="nom" value=""/>
+    <label for="prenom">Prénom : </label>
+    <input type="text" name="prenom" id="prenom" value=""/>
+    <label for="ville">Ville : </label>
+    <input type="text" name="ville" id="ville"  value=""/>
+    <button onclick="toto()" name="valider" id="valider">Valider</button>
+    <script type="text/javascript">
+    function toto(){
+    var name = document.getElementById('nom').value;
+    alert (name);
+    }
+    </script>
+</form>
+</body>
+</html>
